@@ -1,7 +1,7 @@
 const days =document.querySelector("#days");
 const hours =document.querySelector("#hours");
-const minitus =document.querySelector("#minitus");
-const secons =document.querySelector("#secons");
+const min =document.querySelector("#min");
+const sec =document.querySelector("#sec");
 
 function UpdateTimer(){
     let currentYear = new Date().getFullYear();
@@ -15,8 +15,8 @@ const s = Math.floor((different / 1000) % 60);
 
 days.innerHTML =d<10?"0"+d:d;
 hours.innerHTML =h<10?"0"+h:h;
-minitus.innerHTML =m<10?"0"+m:m;
-secons.innerHTML =s<10?"0"+s:s;
+min.innerHTML =m<10?"0"+m:m;
+sec.innerHTML =s<10?"0"+s:s;
 }
 
 setInterval(UpdateTimer,1000);
