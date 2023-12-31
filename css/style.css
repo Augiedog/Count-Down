@@ -58,24 +58,24 @@ p {
 
 @media (min-width:576px) {
      .newyear {
-          font-size: 60px;
+          font-size: 160px;
      }
 
      p {
-          font-size: 18px;
+          font-size: 60px;
      }
 
      .box h2 {
-          font-size: 30px;
+          font-size: 60px;
      }
 
      .box {
-          width: 70px;
-          height: 70px;
+          width: 120px;
+          height: 120px;
      }
 
      .box small {
-          font-size: 15px;
+          font-size: 25px;
      }
 
 }
